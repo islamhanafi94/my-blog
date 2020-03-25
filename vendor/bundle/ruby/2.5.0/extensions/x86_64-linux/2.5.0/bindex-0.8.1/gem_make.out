@@ -1,0 +1,15 @@
+current directory: /home/islam/Desktop/my-blog/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/bin/ruby2.5 -r ./siteconf20200325-21162-3c2un.rb extconf.rb
+creating Makefile
+
+current directory: /home/islam/Desktop/my-blog/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/islam/Desktop/my-blog/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/islam/Desktop/my-blog/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20200325-21162-1a8rqsh/skiptrace/internal
