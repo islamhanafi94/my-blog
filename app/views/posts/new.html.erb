@@ -3,9 +3,9 @@
     <h1> Add New Post </h1>
     <%= form_with(url: "/posts", method: "get") do %>
         <div class="form-group">
-            <%= text_field_tag(:title, nil, placeholder:"title" ,class: "form-control" ) %>
+            <%= text_field_tag(:title, nil, placeholder: "title" ,class: "form-control" ) %>
             <br>
-            <%= text_area_tag(:content, nil,rows: 5, class: "form-control") %>
+            <%= text_area_tag(:content, nil,rows: 5 , class: "form-control") %>
         </div>
         <%= submit_tag("Share", class: "btn btn-success btn-block") %>
     <% end %>
